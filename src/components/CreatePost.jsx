@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const CreatePost = () => {
     const [input,setInput]=new useState(
@@ -28,6 +29,9 @@ const CreatePost = () => {
       )
       }
   return (
+    <div>
+        <Navbar/>
+    
     <div class="card text-center mb-3">
         <div class="card-body">
           <h5 class="card-title">Create your Post</h5>
@@ -48,6 +52,7 @@ const CreatePost = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     
   )
