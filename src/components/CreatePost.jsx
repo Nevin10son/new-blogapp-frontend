@@ -41,7 +41,7 @@ const CreatePost = () => {
                     <textarea name="Message" value={input.Message} className="form-control" onChange={inputHandler}></textarea>
                   </div>
                   <div className="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12">
-                    <button className="btn btn-success" onClick={readValue}>Post</button>
+                    <button className="btn btn-primary" onClick={readValue}>Post</button>
                   </div>
                 </div>
               </div>
